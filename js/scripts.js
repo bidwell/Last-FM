@@ -1,8 +1,8 @@
 $(document).ready(function() {
   
 	$('div#lastfm').lastFM({
-		username: 'ewuweblab',
-		apikey: 'bdafa5aeb85d3c787dd6c9c2f91fc872',
+		username: 'roybidwell',
+		apikey: '66b4f1ca9884fae30b009b4416ef14b3',
 		number: 3,
 		artSize: 'large',
 		onComplete: function(){		
