@@ -1,60 +1,49 @@
-<<<<<<< HEAD
-/* Loading Local BLOKK fonts  */
-@font-face {
-    font-family: 'BLOKKNeue-Regular';
-    src: url('../fonts/BLOKKNeue-Regular.eot');
-    src: url('../fonts/BLOKKNeue-Regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/BLOKKNeue-Regular.woff') format('woff'),
-         url('../fonts/BLOKKNeue-Regular.svg#BLOKKNeue-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+body {
+	/*
+	font-family: 'BLOKKNeue-Regular'; */
+	font-family:Verdana, Geneva, sans-serif;
+	color: white;
 
+	
+}
+#lastfm { 
+	float:left; 
+}
 .lastplay {
-	background: red;
+	background: black;
 	height: 186px;
 }
 
-.lastplay img {
+.lfm_art {
+	height: 126px;
+	width: 126px;
+	margin: 20px 20px 10px 20px;
+	background-color: grey;
 	float: left;
-	margin: 0 10px 0 0;
 }
+
+
+.lfm_album {
+	clear: left;
+	margin-left: 20px;
+	
+	}
+.lfm_song {
+	margin-top: 20px;
+	
+	}	
+.lfm_artist {
+	margin-top: 5px;
+}
+
 
 h1 {
 	font-family: 'BLOKKNeue-Regular', sans-serif; 
 	font-size: 6em;
+	color: red;
 }
 
 p {
 	font-family: 'BLOKKNeue-Regular', sans-serif; 
-=======
-@font-face {
-    font-family: 'BLOKKRegular';
-    src: url('../Fonts/BLOKKRegular.eot');
-    src: url('../Fonts/BLOKKRegular.eot?#iefix') format('embedded-opentype'),
-         url('../Fonts/BLOKKRegular.woff') format('woff'),
-         url('../Fonts/BLOKKRegular.svg#BLOKKRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-h1 { font-family: "BLOKKRegular", serif }
-
-      h2 { font-family: "BLOKKRegular", serif }
-
-      p { font-family: "BLOKKRegular", serif }
-
-      h4 { font-family: "BLOKKRegular", serif }
-
-      h5 { font-family: "BLOKKRegular", serif }
-
-      h6 { font-family: "BLOKKRegular", serif }
-
-      body { font-family: "Helvetica", serif }
-
-#lastfm { 
-
-float:left; 
 
 
->>>>>>> First Upload
-}
